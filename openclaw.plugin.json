@@ -1,0 +1,14 @@
+{
+  "id": "openclaw-plugin-keyrouter",
+  "name": "KeyRouter",
+  "description": "BYOK router scaffold that ingests OpenClaw auth/models",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "description": "Enable KeyRouter commands and config ingestion"
+      }
+    }
+  }
+}
